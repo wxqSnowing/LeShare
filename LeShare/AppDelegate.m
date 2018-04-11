@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "HeaderKit.h"
+#import <AVOSCloud/AVOSCloud.h>
+#import "GuideViewController.h"
+#import "LeTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +20,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //初始化sdk
+    [AVOSCloud setApplicationId:@"yLA0dWUUgdtb3uVCQWpFI1NT-gzGzoHsz" clientKey:@"gAv1ioCNLTSGU94OK3xRDcG9"];
+    
+    UIWindow *window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    _window = window;//存入appDelegate
+    _window.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"isfirst"]) {
+        _window.rootViewController = [[LoginViewController alloc]init];
+//_window.rootViewController = [[LeTabBarViewController alloc]init];
+    }else{
+        _window.rootViewController = [[GuideViewController alloc]init];;
+    }
+    [_window makeKeyAndVisible];//授权
+    
     return YES;
 }
 
