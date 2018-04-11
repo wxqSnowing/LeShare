@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AVOSCloud (4.3.0)
+  - AVOSCloudIM (4.3.0):
+    - AVOSCloud (= 4.3.0)
+    - AVOSCloudIM/_ARC (= 4.3.0)
+    - AVOSCloudIM/_NOARC (= 4.3.0)
+  - AVOSCloudIM/_ARC (4.3.0):
+    - AVOSCloud (= 4.3.0)
+    - AVOSCloudIM/_NOARC (= 4.3.0)
+  - AVOSCloudIM/_NOARC (4.3.0):
+    - AVOSCloud (= 4.3.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FreeStreamer (3.7.3):
+    - Reachability (~> 3.0)
+  - IQKeyboardManager (4.0.9)
+  - Reachability (3.2)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AVOSCloud
+  - AVOSCloudIM
+  - FMDB
+  - FreeStreamer
+  - IQKeyboardManager
+  - SDCycleScrollView (~> 1.64)
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AVOSCloud: 17b1e925c53b3b7ee144f3d0583f0b8d7128c0ef
+  AVOSCloudIM: ee22054d7c4062656c18ad80d3d966c6df755e95
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FreeStreamer: d415160f7b5231deb7e4d9e3ebf4076e1d0b5e52
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: 730ba4b31577b897b796163c0a3502f09f4fb0cd
+
+COCOAPODS: 1.2.1
