@@ -1,2 +1,3 @@
 # LeShare
 #乐分享是一款基于iOS的Objective-C语言的乐分享APP。用户可以编写带声音，图片、视频、文字的丰富文章，还能浏览他人分享的文章的一款文艺清新的APP
+#使用UIKit框架，结合MVC、单例模式设计模式，使用第三方框架AFNetWorking,，SDWebImageView获取分发网络数据，实现图片异步加载，采用第三方数据库LeanCloud存储数据，作品展示使用CollectionView通过Cell重用回调机制实现瀑布流展示；
